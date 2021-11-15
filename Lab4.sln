@@ -5,6 +5,8 @@ VisualStudioVersion = 16.0.31729.503
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Lab4 difficulity 1", "Lab4 difficulity 1\Lab4 difficulity 1.vcxproj", "{E6F7B5C0-5B46-4059-8CCD-9B89B3679612}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Lab 4 difficulity 2", "Lab 4 difficulity 2\Lab 4 difficulity 2.vcxproj", "{2DDFF8DB-2B90-496E-B32E-F99A6FDD4DA9}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -21,6 +23,14 @@ Global
 		{E6F7B5C0-5B46-4059-8CCD-9B89B3679612}.Release|x64.Build.0 = Release|x64
 		{E6F7B5C0-5B46-4059-8CCD-9B89B3679612}.Release|x86.ActiveCfg = Release|Win32
 		{E6F7B5C0-5B46-4059-8CCD-9B89B3679612}.Release|x86.Build.0 = Release|Win32
+		{2DDFF8DB-2B90-496E-B32E-F99A6FDD4DA9}.Debug|x64.ActiveCfg = Debug|x64
+		{2DDFF8DB-2B90-496E-B32E-F99A6FDD4DA9}.Debug|x64.Build.0 = Debug|x64
+		{2DDFF8DB-2B90-496E-B32E-F99A6FDD4DA9}.Debug|x86.ActiveCfg = Debug|Win32
+		{2DDFF8DB-2B90-496E-B32E-F99A6FDD4DA9}.Debug|x86.Build.0 = Debug|Win32
+		{2DDFF8DB-2B90-496E-B32E-F99A6FDD4DA9}.Release|x64.ActiveCfg = Release|x64
+		{2DDFF8DB-2B90-496E-B32E-F99A6FDD4DA9}.Release|x64.Build.0 = Release|x64
+		{2DDFF8DB-2B90-496E-B32E-F99A6FDD4DA9}.Release|x86.ActiveCfg = Release|Win32
+		{2DDFF8DB-2B90-496E-B32E-F99A6FDD4DA9}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
