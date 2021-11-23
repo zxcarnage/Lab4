@@ -26,11 +26,17 @@ int main() {
 		}
 
 		//Подсчет суммы до масимального числа
-		for (int i = 0; i < max_index; i++) {
-			sum += arr[i];
+		if (max_index == 0) {
+			cout << "The max element is the first, so, the sum equals zero" << endl;
+		}
+		else {
+			for (int i = 0; i < max_index; i++) {
+				sum += arr[i];
+			}
+			cout << "The sum of the elements before max element is " << sum << endl;
 		}
 
-		cout << "The sum of the elements before max element is " << sum << endl;
+		
 
 	}
 	else {

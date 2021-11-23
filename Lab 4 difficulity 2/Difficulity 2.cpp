@@ -4,9 +4,8 @@ using std::cin;
 using std::endl;
 
 
-
 int main() {
-	int size = 0, answer = 0, min = 0, sum = 0;
+	int size = 0, answer = 0, min = 0, sum = 0, n = 0, enumerator = 1;
 	int arr[20];
 	srand(time(0));
 	cout << "Please enter the size of our array" << endl;
@@ -36,18 +35,12 @@ int main() {
 
 		cout << "============================================================" << endl;
 
-		//Затирание нечетных элементов массива
+		//Затирание четных элементов массива
 		for (int i = 0; i < size; i++) {
-			if (arr[i] % 2 == 0) {
-				for (int j = i; j < size; j++) {
-					arr[j] = arr[j + 1];
-				}
-				size--;
+			if (arr[i] & 1) {
+				cout << "The " << enumerator << " element of the array equals " << arr[i] << endl;
+				enumerator++;
 			}
-		}
-
-		for (int i = 0; i < size; i++) {
-			cout << "The " << i + 1 << " element of the array equals " << arr[i] << endl;
 		}
 	}
 	return 0;
